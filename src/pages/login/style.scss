@@ -1,0 +1,29 @@
+.ant-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .form {
+    position: relative;
+    border: 1px solid hsla(0, 0%, 65%, 0.158);
+    box-shadow: 0 0 36px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    z-index: 99;
+    padding: 2rem;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .ant-input {
+      display: block;
+      width: 100%;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      font-weight: 500;
+      letter-spacing: 0.8px;
+      font-size: 15px;
+    }
+  }
+}

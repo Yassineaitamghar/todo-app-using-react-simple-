@@ -1,0 +1,22 @@
+.user-table {
+  padding: 24px;
+  .table {
+    .ant-spin-nested-loading {
+      .ant-table-content {
+        height: calc(100vh - 249px);
+        overflow: auto !important;
+
+        table {
+          td,
+          th {
+            vertical-align: middle;
+            width: max-content;
+          }
+        }
+      }
+      .ant-spin {
+        max-height: 100%;
+      }
+    }
+  }
+}

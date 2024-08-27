@@ -1,0 +1,56 @@
+.card-design {
+  .ant-card-cover {
+    display: flex;
+    overflow: hidden;
+    height: 200px;
+    .coverButton {
+      display: none;
+      transform: translate(40%, 44%);
+    }
+    .coverBackground {
+      display: none;
+    }
+    &:hover .coverBackground {
+      content: "";
+      position: absolute;
+      width: 100%;
+      background-color: black;
+      height: 81%;
+      opacity: 50%;
+      display: block;
+      z-index: 1;
+    }
+    &:hover .coverButton {
+      display: block;
+      z-index: 2;
+      background: none;
+      border: none;
+      position: absolute;
+      width: 100px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -100%);
+    }
+  }
+  .profil_picture {
+    border: 2px solid black;
+  }
+  .ant-card-meta-detail {
+    position: absolute;
+    left: 100%;
+    top: 60%;
+  }
+  .ant-card-meta {
+    position: absolute;
+    bottom: 5px;
+    left: 10%;
+    .ant-card-meta-avatar {
+      z-index: 99;
+    }
+  }
+}
+.ant-dropdown {
+  .ant-dropdown-menu {
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,27 @@
+.container {
+  padding: 24px;
+}
+
+.editForm .ant-space,.addForm .ant-space{
+  display: flex!important;
+  input{
+    border-color: gray;
+  }
+  .ant-picker{
+    width: 100%;
+    border-color: gray;
+    &:hover{
+      border-color: #1677ff;
+    }
+    .ant-picker-suffix{
+      color: gray;
+    }
+    .ant-picker-clear {
+      color: #1677ff;
+    }
+  }
+}
+.editForm .uploadBtn:hover{
+  color: #fff;
+  background: #4096ff !important;
+}
